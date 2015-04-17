@@ -24,7 +24,7 @@ one to swim upstream.} --  W. C. Fields :c
 :b
 
 <center>
-:c,image(phish/images/school.jpg)
+:c,image(images/school.jpg)
 school of blue and gold snappers, Coiba Natl Park, Panama :b
 photograph by Laszlo Ilyes, licensed under terms of cc-by-2.0 :b
 </center>
@@ -44,16 +44,16 @@ This is the home page for the PHISH library, which is the chief
 component of a simple framework for processing large volumes of data,
 either in a real-time streaming context or from files.
 
-"Pheatures"_phish/features.html,
-"Lingo"_phish/lingo.html,
-"Documentation"_phish/doc/Manual.html,
-"Benchmarks"_phish/bench.html,
+"Pheatures"_features.html,
+"Lingo"_lingo.html,
+"Documentation"_doc/Manual.html,
+"Benchmarks"_bench.html,
 "Download"_download.html,
-"Publications"_phish/papers.html,
-"Latest features & bug fixes"_phish/bug.html,
-"Contribute"_phish/contribute.html,
-"Open source"_phish/open_source.html,
-"Authors"_phish/authors.html :tb(c=5,ea=c,a=c)
+"Publications"_papers.html,
+"Latest features & bug fixes"_bug.html,
+"Contribute"_contribute.html,
+"Open source"_open_source.html,
+"Authors"_authors.html :tb(c=5,ea=c,a=c)
 
 PHISH stands for Parallel Harness for Informatic Stream Hashing.  The
 phishy metaphor is meant to evoke the image of many small minnows
@@ -78,7 +78,7 @@ has a C-style interface which can be used from any hi-level language,
 including C, C++, Fortran, or Python.  PHISH is distributed as an
 open-source code, under the terms of the modified "Berkeley Software
 Distribution (BSD) License"_bsd.  See "this
-page"_phish/open_source.html for more details.
+page"_open_source.html for more details.
 
 The authors of PHISH are "Steve Plimpton"_sjp and Tim Shead, who can
 be contacted at sjplimp at sandia.gov and tshead at sandia.gov.
@@ -116,7 +116,7 @@ Twitter Storm by Nathan Marz ("overview"_tsover and "Git repo"_tsrepo)
 Recent PHISH News :c,h4
 
 <IMG SRC = "images/new.gif"> (10/12) Posted pre-print of our first
-paper on PHISH on the "Papers"_phish/papers.html page. :ulb,l
+paper on PHISH on the "Papers"_papers.html page. :ulb,l
 
 <IMG SRC = "images/new.gif"> (9/12) Initial open-source release of the
 PHISH library.  :ule,l
