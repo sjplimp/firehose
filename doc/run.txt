@@ -176,7 +176,7 @@ million.  As discussed in the "Generators"_generators.html section,
 you can set the number of packets via a "-n N" switch for any of the
 generators.
 
-You can check if the analytic proocessed all the packets in the stream
+You can check if the analytic processed all the packets in the stream
 by comparing the "packets emitted" value printed by the generator to
 the "packets received" value printed by the analytic.  If your run
 drops packets, you will likely get different output when comparing to
