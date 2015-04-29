@@ -30,12 +30,12 @@ results.
 This FireHose distribution includes the following files and
 directories:
 
-README			   this file
-LICENSE			   the BSD License
-analytics                  code for the analytics
-doc			   HTML documentation
-generators                 code for the generators
-tools                      auxiliary scripts useful in running the benchmarks
-results                    output files of correct benchmark answers
+README      this file
+LICENSE     the BSD License
+analytics   code for the analytics
+doc         HTML documentation
+generators  code for the generators
+tools       auxiliary scripts useful in running the benchmarks
+results     output files of correct benchmark answers
 
 Point your browser at doc/README.html to get started.
