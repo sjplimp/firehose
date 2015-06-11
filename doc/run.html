@@ -156,9 +156,9 @@ It can be launched in another window as described above:
 <P>As soon as you do this, the <A HREF = "#anomaly1">anomaly1</A> analytic should begin
 to find anomalies and print information to the screen.  This should
 continue until the generator has emitted all its packets, which is 1
-million (50 million datums) by default.  (You can change this with a
-"-p N" switch on the powerlaw command if you wish.)  This should take
-15 to 30 seconds on a typical machine.
+million (or 50 million datums) by default.  (You can change this with
+a "-n N" switch on the powerlaw command if you wish.)  This should
+take 15 to 30 seconds on a typical machine.
 </P>
 <P>When the generator is finished it will print a summary of its
 generation statistics to the screen.  The analytic should do likewise
@@ -173,12 +173,12 @@ processing two levels of keys.
 <P>If your run does not drop packets, any version (C++, Python, etc) of
 each of the analytics should produce results identical to those in the
 results directory of the FireHose tarball.  Those were run using a
-single generator for varying numbers of generated packets from 10,000
-to 10 million.  As discussed in the <A HREF = "generators.html">Generators</A>
-section, you can set the number of packets via a "-p N" switch for any
-of the generators.
+single generator for varying numbers of packets from 10,000 to 10
+million.  As discussed in the <A HREF = "generators.html">Generators</A> section,
+you can set the number of packets via a "-n N" switch for any of the
+generators.
 </P>
-<P>You can check if the analytic proocessed all the packets in the stream
+<P>You can check if the analytic processed all the packets in the stream
 by comparing the "packets emitted" value printed by the generator to
 the "packets received" value printed by the analytic.  If your run
 drops packets, you will likely get different output when comparing to
