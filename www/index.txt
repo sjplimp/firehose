@@ -32,6 +32,7 @@ The sponsors of the FireHose benchmarks are Karl Anderson (DoD) and
 "Steve Plimpton"_http://www.sandia.gov/~sjplimp (Sandia National
 Labs).
 
+"Download"_dnl
 "Documentation"_doc/README.html
 "Benchmark Results"_bench.html
 "Publications"_papers.html
@@ -50,4 +51,4 @@ Security statement"_security.
 :link(doe,http://www.doe.gov)
 :link(bsd,http://en.wikipedia.org/wiki/BSD_license)
 :link(sjp,http://www.sandia.gov/~sjplimp)
-
+:link(dnl,http://github.com/stream-benchmarking/firehose)
