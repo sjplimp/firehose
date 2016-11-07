@@ -232,19 +232,19 @@ due to OS operations, e.g. swapping and switching between processes.
 <P>You can query the current settings for both send ("s") and receive
 ("r") buffers by the following commands:
 </P>
-<P>% cat /proc/sys/net/core/rmem_max
+<PRE>% cat /proc/sys/net/core/rmem_max
 % cat /proc/sys/net/core/rmem_default
 % cat /proc/sys/net/core/smem_max
-% cat /proc/sys/net/core/smem_default
-</P>
+% cat /proc/sys/net/core/smem_default 
+</PRE>
 <P>If they are only a few 100 Kbytes, you should set them to values more
 like 16 Mbytes, via these commands:
 </P>
-<P>% sysctl -w net.core.rmem_max='16777216'
+<PRE>% sysctl -w net.core.rmem_max='16777216'
 % sysctl -w net.core.rmem_default='16777216'
 % sysctl -w net.core.smem_max='16777216'
-% sysctl -w net.core.smem_default='16777216'
-</P>
+% sysctl -w net.core.smem_default='16777216' 
+</PRE>
 <P>You will need sudo or root privileges to make these changes.  You
 should write down the original values if you wish to restore them
 after running FireHose benchmarks.
