@@ -3,9 +3,15 @@
     <meta name="Description" content="FireHose Streaming Benchmarks home page">
     <meta name="keywords" content="FireHose, streaming data analysis">
     <meta name="filename" content="index.html" />
+    <meta name="google-site-verification" content="jIe-V87O61oNvgWFgBXMeF5bFl35XjSaG0Fm8_7q5VU" />
+    <meta name="review" content="05_21_2020" />
+    <meta name="filename" content="index.html" />
     <meta name="subject" content="FireHose Streaming Benchmarks home page" />
+    <meta name="sandia.approval_type" content="formal" />
+    <meta name="sandia.approved" content="2020-5320W" />
     <link rev="owns" title="Steve Plimpton" href="mailto:sjplimp@sandia.gov" />
     <link rev="made, publisher" title="Steve Plimpton" href="mailto:sjplimp@sandia.gov" />
+    <meta name="MSSmartTagsPreventParsing" content="TRUE" />
     <meta name="Author" content="Steve Plimpton" />
 </HEAD>
 
